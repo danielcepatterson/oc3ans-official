@@ -190,6 +190,7 @@ function App() {
 			{/* ── FOOTER ── */}
 			<footer className="footer">
 				<p>© {new Date().getFullYear()} OC3ANS | photos by @tylersalesportfolio</p>
+				<p>album artwork by @eric_vithalani</p>
 				<p>All rights reserved.</p>
 				<div className="footer-socials">
 					<a href="https://www.youtube.com/@Oc3ans_Official" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
