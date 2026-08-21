@@ -89,7 +89,7 @@ function App() {
 				</div>
 			</section>
 
-			{/* ── ABOUT ── */}}
+			{/* ── ABOUT ── */}
 			<section id="about" className="section-about">
 				<div className="section-inner">
 					<span className="section-label">Our Story</span>
@@ -106,7 +106,7 @@ function App() {
 				<div className="section-inner">
 					<span className="section-label">Live</span>
 					<h2 className="section-heading">Upcoming Shows</h2>
-					<div className="sows-empty">
+					<div className="sws-empty">
 						<button className="btn-booking" onClick={() => setShowDates(v => !v)}>
 							{showDates ? 'Hide Dates' : 'View Dates'}
 						</button>
