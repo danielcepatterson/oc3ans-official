@@ -70,7 +70,6 @@ function App() {
 				<img src="/IMG_3261.PNG" alt="" className="hero-octopus" aria-hidden="true" />
 				<div className="hero-content">
 					<p className="hero-eyebrow">New Album Out Now</p>
-					<h1 className="hero-title">OC3ANS</h1>
 					<p className="hero-subtitle">Listen to <em>Riptide</em> — Stream It Now</p>
 					<a
 						href="https://unitedmasters.com/m/riptide-13"
