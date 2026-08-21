@@ -131,10 +131,12 @@ function App() {
 						<li>
 							<span className="show-date">Sat Aug 22</span>
 							<span className="show-venue">The Bend<br/><span className="show-location">Wilmington, NC</span></span>
+							<a href="https://www.thebendilm.com/events/oc3ans-2" target="_blank" rel="noopener noreferrer" className="show-link">Info</a>
 						</li>
 						<li>
 							<span className="show-date">Fri Aug 28</span>
 							<span className="show-venue">The CB Pier<br/><span className="show-location">Carolina Beach, NC</span></span>
+							<a href="https://carolinabeachpier.com/" target="_blank" rel="noopener noreferrer" className="show-link">Info</a>
 						</li>
 						<li>
 							<span className="show-date">Fri Sep 11</span>
