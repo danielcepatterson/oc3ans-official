@@ -125,7 +125,7 @@ function App() {
 					<ul className="showdates-list">
 						<li>
 							<span className="show-date">Fri Aug 21</span>
-							<span className="show-venue">Boatyard Series<br/><span className="show-location">Downtown Wilmington, NC</span></span>
+							<span className="show-venue">Boatyard Series<br/><span className="show-location">Wilmington, NC</span></span>
 							<a href="https://www.wilmingtonandbeaches.com/event/sunset-live-music-series/4372/" target="_blank" rel="noopener noreferrer" className="show-link">Info</a>
 						</li>
 						<li>
@@ -142,16 +142,18 @@ function App() {
 						</li>
 						<li>
 							<span className="show-date">Fri Sep 18</span>
-							<span className="show-venue">Boatyard Series<br/><span className="show-location">Downtown Wilmington, NC</span></span>
+							<span className="show-venue">Boatyard Series<br/><span className="show-location">Wilmington, NC</span></span>
 							<a href="https://www.wilmingtonandbeaches.com/event/sunset-live-music-series/4372/" target="_blank" rel="noopener noreferrer" className="show-link">Info</a>
 						</li>
 						<li>
 							<span className="show-date">Sat Oct 24</span>
 							<span className="show-venue">Barnburner<br/><span className="show-location">Aldie, VA</span></span>
+							<a href="https://www.eventbrite.com/e/barn-burner-130-featuring-grieves-tickets-1997363484951?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer" className="show-link">Tickets</a>
 						</li>
 						<li>
 							<span className="show-date">Sat Nov 14</span>
 							<span className="show-venue">Bad Day After Party<br/><span className="show-location">Goat &amp; Compass - Wilmington, NC</span></span>
+							<a href="https://baddayfest.com" target="_blank" rel="noopener noreferrer" className="show-link">Info</a>
 						</li>
 					</ul>
 				</div>
