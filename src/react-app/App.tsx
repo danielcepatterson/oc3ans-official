@@ -67,7 +67,6 @@ function App() {
 			{/* ── HERO ── */}
 			<section id="home" className="hero">
 				<div className="hero-overlay" />
-				<img src="/IMG_3261.PNG" alt="" className="hero-octopus" aria-hidden="true" />
 				<div className="hero-content">
 					<p className="hero-eyebrow">New Album Out Now</p>
 					<h1 className="hero-title" style={{opacity: 0}}>OC3ANS</h1>
