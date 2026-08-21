@@ -118,6 +118,20 @@
 	);
 }
 
+.hero-octopus {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: min(820px, 95vw);
+	opacity: 0.1;
+	filter: grayscale(100%) contrast(1.2);
+	pointer-events: none;
+	z-index: 1;
+	user-select: none;
+	mix-blend-mode: screen;
+}
+
 .hero-overlay {
 	position: absolute;
 	inset: 0;
