@@ -346,7 +346,7 @@
 }
 .section-blog {
 	position: relative;
-	background: url('/DSC05869 2.JPEG') center center / cover no-repeat;
+	background: url('/DSC05869 2.JPEG') center top / cover no-repeat;
 	border: none;
 	margin-top: -2px;
 }
