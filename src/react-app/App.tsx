@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+	const [showDates, setShowDates] = useState(false);
 	return (
 		<div className="site-wrapper">
 			{/* ── NAV ── */}
@@ -17,7 +19,7 @@ function App() {
 					<nav className="nav-links">
 						<a href="#home">Home</a>
 						<a href="#about">About</a>
-						<a href="#showdates">Upcoming Shows</a>
+						<a href="#shows">Upcoming Shows</a>
 						<a href="#blog">Store</a>
 						<a href="#booking">Booking</a>
 					</nav>
@@ -87,7 +89,8 @@ function App() {
 				</div>
 			</section>
 
-			{/* ── SHOW DATES (hidden – direct link only) ── */}
+			{/* ── SHOW DATES (hidden – toggle only) ── */}
+			{showDates && (
 			<section id="showdates" className="section-showdates">
 				<img src="/IMG_3261.PNG" alt="" className="showdates-octopus" aria-hidden="true" />
 				<div className="showdates-overlay" />
@@ -105,6 +108,7 @@ function App() {
 					</ul>
 				</div>
 			</section>
+			)}
 
 			{/* ── ABOUT ── */}
 			<section id="about" className="section-about">
@@ -124,7 +128,9 @@ function App() {
 					<span className="section-label">Live</span>
 					<h2 className="section-heading">Upcoming Shows</h2>
 					<div className="shows-empty">
-						<a href="#showdates" className="btn-booking">View Dates</a>
+						<button className="btn-booking" onClick={() => setShowDates(v => !v)}>
+							{showDates ? 'Hide Dates' : 'View Dates'}
+						</button>
 					</div>
 				</div>
 			</section>
