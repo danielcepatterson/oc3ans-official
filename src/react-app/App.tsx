@@ -89,28 +89,7 @@ function App() {
 				</div>
 			</section>
 
-			{/* ── SHOW DATES (hidden – toggle only) ── */}
-			{showDates && (
-			<section id="showdates" className="section-showdates">
-				<img src="/IMG_3261.PNG" alt="" className="showdates-octopus" aria-hidden="true" />
-				<div className="showdates-overlay" />
-				<div className="section-inner showdates-inner">
-					<span className="section-label">On The Road</span>
-					<h2 className="section-heading">Show Dates</h2>
-					<ul className="showdates-list">
-						<li><span className="show-date">Fri Aug 21</span><span className="show-venue">Boatyard</span></li>
-						<li><span className="show-date">Sat Aug 22</span><span className="show-venue">The Bend</span></li>
-						<li><span className="show-date">Fri Aug 28</span><span className="show-venue">The CB Pier</span></li>
-						<li><span className="show-date">Fri Sep 11</span><span className="show-venue">Private Event</span></li>
-						<li><span className="show-date">Fri Sep 18</span><span className="show-venue">Boatyard</span></li>
-						<li><span className="show-date">Sat Oct 24</span><span className="show-venue">Barnburner <span className="show-location">// Aldie, VA</span></span></li>
-						<li><span className="show-date">Sat Nov 14</span><span className="show-venue">Bad Day After Party</span></li>
-					</ul>
-				</div>
-			</section>
-			)}
-
-			{/* ── ABOUT ── */}
+			{/* ── ABOUT ── */}}
 			<section id="about" className="section-about">
 				<div className="section-inner">
 					<span className="section-label">Our Story</span>
@@ -134,6 +113,27 @@ function App() {
 					</div>
 				</div>
 			</section>
+
+			{/* ── SHOW DATES (hidden – toggle only) ── */}
+			{showDates && (
+			<section id="showdates" className="section-showdates">
+				<img src="/IMG_3261.PNG" alt="" className="showdates-octopus" aria-hidden="true" />
+				<div className="showdates-overlay" />
+				<div className="section-inner showdates-inner">
+					<span className="section-label">On The Road</span>
+					<h2 className="section-heading">Show Dates</h2>
+					<ul className="showdates-list">
+						<li><span className="show-date">Fri Aug 21</span><span className="show-venue">Boatyard</span></li>
+						<li><span className="show-date">Sat Aug 22</span><span className="show-venue">The Bend</span></li>
+						<li><span className="show-date">Fri Aug 28</span><span className="show-venue">The CB Pier</span></li>
+						<li><span className="show-date">Fri Sep 11</span><span className="show-venue">Private Event</span></li>
+						<li><span className="show-date">Fri Sep 18</span><span className="show-venue">Boatyard</span></li>
+						<li><span className="show-date">Sat Oct 24</span><span className="show-venue">Barnburner <span className="show-location">// Aldie, VA</span></span></li>
+						<li><span className="show-date">Sat Nov 14</span><span className="show-venue">Bad Day After Party</span></li>
+					</ul>
+				</div>
+			</section>
+			)}
 
 			{/* ── BLOG ── */}
 			<section id="blog" className="section-blog">
