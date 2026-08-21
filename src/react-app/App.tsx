@@ -138,7 +138,8 @@ function App() {
 
 			{/* ── FOOTER ── */}
 			<footer className="footer">
-				<p>© {new Date().getFullYear()} OC3ANS | photography by @tylersalesportfolio | All rights reserved.</p>
+				<p>© {new Date().getFullYear()} OC3ANS | photography by @tylersalesportfolio</p>
+				<p>All rights reserved.</p>
 				<div className="footer-socials">
 					<a href="https://www.youtube.com/@Oc3ans_Official" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
 						<svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">

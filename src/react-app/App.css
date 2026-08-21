@@ -448,7 +448,7 @@
 
 @media (min-width: 769px) {
 	.section-blog {
-		background-position: center 20%;
+		background-position: center 10%;
 	}
 }
 
@@ -481,6 +481,6 @@
 		padding: 4rem 1.5rem;
 	}
 	.section-about {
-		background-position: center 15%;
+		background-position: center 5%;
 	}
 }
