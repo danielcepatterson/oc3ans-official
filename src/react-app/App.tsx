@@ -106,7 +106,7 @@ function App() {
 				</div>
 			</section>
 
-			{/* ── ABOUT ── */}}
+			{/* ── ABOUT ── */}
 			<section id="about" className="section-about">
 				<div className="section-inner">
 					<span className="section-label">Our Story</span>
