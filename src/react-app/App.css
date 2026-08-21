@@ -392,12 +392,16 @@
 	border: 1.5px solid rgba(62, 198, 224, 0.5);
 	border-radius: 50px;
 	color: #e8f4f8;
+	background: transparent;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.8rem;
 	font-weight: 700;
 	letter-spacing: 0.18em;
 	text-transform: uppercase;
 	text-decoration: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
 	transition: background 0.3s, border-color 0.3s, box-shadow 0.3s, transform 0.2s;
 }
 .btn-booking:hover {
