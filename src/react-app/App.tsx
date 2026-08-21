@@ -68,14 +68,6 @@ function App() {
 			<section id="home" className="hero">
 				<div className="hero-overlay" />
 				<img src="/IMG_3261.PNG" alt="" className="hero-octopus" aria-hidden="true" />
-				<div className="wave-container">
-					<svg className="wave wave-1" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-						<path fill="rgba(14,90,130,0.25)" d="M0,192L48,176C96,160,192,128,288,133.3C384,139,480,181,576,186.7C672,192,768,160,864,154.7C960,149,1056,171,1152,176C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/>
-					</svg>
-					<svg className="wave wave-2" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-						<path fill="rgba(7,52,78,0.35)" d="M0,256L48,245.3C96,235,192,213,288,208C384,203,480,213,576,224C672,235,768,245,864,234.7C960,224,1056,192,1152,181.3C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/>
-					</svg>
-				</div>
 				<div className="hero-content">
 					<p className="hero-eyebrow">New Single Out Now</p>
 					<h1 className="hero-title">OC3ANS</h1>
@@ -93,9 +85,6 @@ function App() {
 						</span>
 						Stream Now
 					</a>
-				</div>
-				<div className="scroll-indicator">
-					<div className="scroll-dot" />
 				</div>
 			</section>
 
@@ -141,7 +130,7 @@ function App() {
 					<p className="section-body">
 						Interested in booking OC3ANS for your event? Reach out and let's make waves together.
 					</p>
-					<a href="mailto:booking@oc3ans.com" className="btn-booking">
+					<a href="mailto:oc3ansbooking@gmail.com" className="btn-booking">
 						Contact Us
 					</a>
 				</div>

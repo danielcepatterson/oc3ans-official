@@ -346,8 +346,7 @@
 }
 .section-blog {
 	position: relative;
-	background: url('/DSC05869 2.JPEG') center top / cover no-repeat;
-	border: none;
+	background: url('/DSC05869 2.JPEG') center top / cover no-repeat;	border: none;
 	margin-top: -2px;
 }
 .section-blog::before {
@@ -445,6 +444,12 @@
 .footer-socials a:hover {
 	color: #3ec6e0;
 	transform: translateY(-2px);
+}
+
+@media (min-width: 769px) {
+	.section-blog {
+		background-position: center -20%;
+	}
 }
 
 /* ── RESPONSIVE ── */
