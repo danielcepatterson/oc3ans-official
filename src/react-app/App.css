@@ -574,4 +574,7 @@
 		background-size: cover;
 		background-position: center top;
 	}
+	.show-venue {
+		font-size: 1.1rem;
+	}
 }
