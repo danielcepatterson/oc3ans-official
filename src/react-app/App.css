@@ -398,6 +398,14 @@
 		bottom: auto;
 		top: 50%;
 		transform: translate(-50%, -55%);
+		width: min(902px, 104.5vw);
+	}
+	.hero {
+		min-height: 70vh;
+	}
+	.hero-content {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 	.section-about,
 	.section-shows,
