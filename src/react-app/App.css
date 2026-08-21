@@ -120,7 +120,7 @@
 
 .hero-octopus {
 	position: absolute;
-	bottom: 0;
+	bottom: -140px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: min(820px, 95vw);
@@ -393,6 +393,9 @@
 	}
 	.hero-title {
 		letter-spacing: 0.12em;
+	}
+	.hero-octopus {
+		bottom: -20px;
 	}
 	.section-about,
 	.section-shows,
