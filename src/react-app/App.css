@@ -345,9 +345,24 @@
 	z-index: 1;
 }
 .section-blog {
-	background: #050d1a;
+	position: relative;
+	background: url('/DSC05869 2.JPEG') center center / cover no-repeat;
 	border: none;
 	margin-top: -2px;
+}
+.section-blog::before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: 0;
+	right: 0;
+	bottom: -2px;
+	background: rgba(5, 13, 26, 0.68);
+	z-index: 0;
+}
+.section-blog .section-inner {
+	position: relative;
+	z-index: 1;
 }
 .section-booking {
 	position: relative;
@@ -444,8 +459,6 @@
 		letter-spacing: 0.12em;
 	}
 	.hero-octopus {
-		bottom: auto;
-		top: 50%;
 		transform: translate(-50%, -55%);
 		width: min(902px, 104.5vw);
 	}
@@ -461,5 +474,8 @@
 	.section-blog,
 	.section-booking {
 		padding: 4rem 1.5rem;
+	}
+	.section-about {
+		background-position: center 30%;
 	}
 }

@@ -18,7 +18,7 @@ function App() {
 						<a href="#home">Home</a>
 						<a href="#about">About</a>
 						<a href="#shows">Upcoming Shows</a>
-						<a href="#blog">Blog</a>
+						<a href="#blog">Store</a>
 						<a href="#booking">Booking</a>
 					</nav>
 
@@ -125,8 +125,8 @@ function App() {
 			{/* ── BLOG ── */}
 			<section id="blog" className="section-blog">
 				<div className="section-inner">
-					<span className="section-label">Latest</span>
-					<h2 className="section-heading">Blog</h2>
+					<span className="section-label">Merch</span>
+					<h2 className="section-heading">Store</h2>
 					<div className="shows-empty">
 						<p>Posts coming soon.</p>
 					</div>
