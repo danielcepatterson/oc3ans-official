@@ -69,9 +69,9 @@ function App() {
 				<div className="hero-overlay" />
 				<img src="/IMG_3261.PNG" alt="" className="hero-octopus" aria-hidden="true" />
 				<div className="hero-content">
-					<p className="hero-eyebrow">New Single Out Now</p>
+					<p className="hero-eyebrow">New Album Out Now</p>
 					<h1 className="hero-title">OC3ANS</h1>
-					<p className="hero-subtitle">Listen to <em>Riptide</em> — Stream Now Below</p>
+					<p className="hero-subtitle">Listen to <em>Riptide</em> — Stream It Now</p>
 					<a
 						href="https://unitedmasters.com/m/riptide-13"
 						target="_blank"
@@ -94,7 +94,7 @@ function App() {
 					<span className="section-label">Our Story</span>
 					<h2 className="section-heading">About OC3ANS</h2>
 					<p className="section-body">
-						Born from the salt air and crashing waves, OC3ANS blends soulful melodies with the
+						Born from the place where the 3 seas meet, Oc3ans blends soulful melodies with the
 						raw energy of the coast. Our sound moves like water — fluid, powerful, and impossible to ignore.
 					</p>
 				</div>
@@ -138,7 +138,7 @@ function App() {
 
 			{/* ── FOOTER ── */}
 			<footer className="footer">
-				<p>© {new Date().getFullYear()} OC3ANS. All rights reserved.</p>
+				<p>© {new Date().getFullYear()} OC3ANS | photography by @tylersalesportfolio | All rights reserved.</p>
 				<div className="footer-socials">
 					<a href="https://www.youtube.com/@Oc3ans_Official" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
 						<svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">

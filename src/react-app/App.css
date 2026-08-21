@@ -448,7 +448,7 @@
 
 @media (min-width: 769px) {
 	.section-blog {
-		background-position: center -20%;
+		background-position: center 20%;
 	}
 }
 
@@ -468,7 +468,7 @@
 		width: min(902px, 104.5vw);
 	}
 	.hero {
-		min-height: 70vh;
+		min-height: 61vh;
 	}
 	.hero-content {
 		padding-top: 5rem;
@@ -481,6 +481,6 @@
 		padding: 4rem 1.5rem;
 	}
 	.section-about {
-		background-position: center 30%;
+		background-position: center 15%;
 	}
 }
