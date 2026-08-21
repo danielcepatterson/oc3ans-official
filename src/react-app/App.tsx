@@ -106,7 +106,7 @@ function App() {
 				<div className="section-inner">
 					<span className="section-label">Live</span>
 					<h2 className="section-heading">Upcoming Shows</h2>
-					<div className="shows-empty">
+					<div className="sows-empty">
 						<button className="btn-booking" onClick={() => setShowDates(v => !v)}>
 							{showDates ? 'Hide Dates' : 'View Dates'}
 						</button>
