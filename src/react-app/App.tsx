@@ -123,13 +123,13 @@ function App() {
 					<span className="section-label">On The Road</span>
 					<h2 className="section-heading">Show Dates</h2>
 					<ul className="showdates-list">
-						<li><span className="show-date">Fri Aug 21</span><span className="show-venue">Boatyard Series <span className="show-location">// Downtown Wilmington, NC</span></span></li>
-						<li><span className="show-date">Sat Aug 22</span><span className="show-venue">The Bend <span className="show-location">// Wilmington, NC</span></span></li>
-						<li><span className="show-date">Fri Aug 28</span><span className="show-venue">The CB Pier <span className="show-location">// Carolina Beach, NC</span></span></li>
+						<li><span className="show-date">Fri Aug 21</span><span className="show-venue">Boatyard Series<br/><span className="show-location">// Downtown Wilmington, NC</span></span></li>
+						<li><span className="show-date">Sat Aug 22</span><span className="show-venue">The Bend<br/><span className="show-location">// Wilmington, NC</span></span></li>
+						<li><span className="show-date">Fri Aug 28</span><span className="show-venue">The CB Pier<br/><span className="show-location">// Carolina Beach, NC</span></span></li>
 						<li><span className="show-date">Fri Sep 11</span><span className="show-venue">Private Event</span></li>
-						<li><span className="show-date">Fri Sep 18</span><span className="show-venue">Boatyard Series <span className="show-location">// Downtown Wilmington, NC</span></span></li>
-						<li><span className="show-date">Sat Oct 24</span><span className="show-venue">Barnburner <span className="show-location">// Aldie, VA</span></span></li>
-						<li><span className="show-date">Sat Nov 14</span><span className="show-venue">Bad Day After Party <span className="show-location">// Goat &amp; Compass - Wilmington, NC</span></span></li>
+						<li><span className="show-date">Fri Sep 18</span><span className="show-venue">Boatyard Series<br/><span className="show-location">// Downtown Wilmington, NC</span></span></li>
+						<li><span className="show-date">Sat Oct 24</span><span className="show-venue">Barnburner<br/><span className="show-location">// Aldie, VA</span></span></li>
+						<li><span className="show-date">Sat Nov 14</span><span className="show-venue">Bad Day After Party<br/><span className="show-location">// Goat &amp; Compass - Wilmington, NC</span></span></li>
 					</ul>
 				</div>
 			</section>
